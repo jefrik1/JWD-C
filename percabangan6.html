@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Pertemuan 5 - Latihan Percabangan Nested If</title>
+    </head>
+    <body>
+        <script>
+            // // Nested 1
+            // var user = prompt("Username:");
+            // if (user == "petanikode"){
+            //     // Nested 2
+            //     var pass = prompt("Password:");
+            //     if(pass == "kopi"){
+            //         // Nested 3
+            //         var lokasi = prompt("Lokasi:");
+            //         sambutan = lokasi == "madiun" ? "Petani Madiun" : "Petani Indonesia"
+
+            //         document.write('<p>Selamat Datang '+sambutan+'</p>');
+            //     } else {
+            //         document.write('<p>Password salah</p>');
+            //     }
+            // } else {
+            //     document.write('<p>Username salah</p>');
+            // }
+
+            var user = prompt("Username:");
+            var pass = prompt("Password:");
+
+            if (user == "petanikode" && pass == "kopi"){
+                document.write('<p>Selamat Datang Petani Kode </p>');
+            } else {
+                document.write('<p>Username atau password salah</p>');
+            }
+        </script>
+    </body>
+</html>

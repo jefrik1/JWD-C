@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Order Form</title>
+        <link rel="stylesheet" href="tampilan.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <h2>Pesanan</h2>
+            <div class="btn-group">
+                <label>
+                    <input type="checkbox" name="menu" value="35000" onchange="calculateCost()">
+                    <span class="left">Cappucino</span>
+                    <span class="right">Rp 35,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="40000" onchange="calculateCost()">
+                    <span class="left">Green Tea Latte</span>
+                    <span class="right">Rp 40,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="50000" onchange="calculateCost()">
+                    <span class="left">Fish and Chips</span>
+                    <span class="right">Rp 50,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="45000" onchange="calculateCost()">
+                    <span class="left">Tuna Sandwich</span>
+                    <span class="right">Rp 45,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="8000" onchange="calculateCost()">
+                    <span class="left">Mineral Water</span>
+                    <span class="right">Rp 8,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="18000" onchange="calculateCost()">
+                    <span class="left">French Fries</span>
+                    <span class="right">Rp 18,000</span>
+                </label>
+            </div>
+            <div id="totalCost">
+                <span class="left">Total:</span>
+                <span class="right">Rp 0</span>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

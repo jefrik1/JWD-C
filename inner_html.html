@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Hello World Javasript</title>
+    </head>
+    <body>
+        <h1>Javascript untuk Pemula</h1>
+        <div id="hasil-output"></div>
+        <div>
+            <input name="input" value="Donut">
+        </div>
+
+        <script>
+            var output = document.getElementById("hasil-output");
+            var input = document.getElementsByName("input");
+
+            output.innerHTML = "<b>Aku suka Javascript</b>"
+            
+            console.log(input[0].value)
+        </script>
+    </body>
+</html>

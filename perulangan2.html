@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Pertemuan 5 - Latihan Perulangan While</title>
+    </head>
+    <body>
+        <script>
+            var ulangi = confirm("Apakah ingin mengulang?");
+            var counter = 0;
+
+            while(ulangi){
+                counter++;
+                ulangi = confirm("Apakah ingin mengulang?");
+            }
+
+            document.write("Anda sudah mengulangi sebanyak "+counter);
+        </script>
+    </body>
+</html>

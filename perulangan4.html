@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Pertemuan 5 - Latihan Perulangan ForEach</title>
+    </head>
+    <body>
+        <script>
+            var array = ["A","B","C","D","E"] 
+            var marray = [["AA","AB"],["BA","BB"],"C","D","E"] 
+
+            document.write("<h3>Foreach tanpa in</h3>");
+            for(i=0;i<array.length;i++){
+                document.write("Index ke "+i+" berisi nilai "+array[i]+"<br>");
+            }
+
+            document.write("<h3>Foreach dengan in</h3>");
+            for(i in array){
+                document.write("Index ke "+i+" berisi nilai "+array[i]+"<br>");
+            }
+
+            document.write("<h3>Foreach dengan syntax forEach</h3>");
+            array.forEach((item, index) => {
+                document.write("Index ke "+index+" berisi nilai "+item+"<br>");
+            })
+
+        </script>
+    </body>
+</html>

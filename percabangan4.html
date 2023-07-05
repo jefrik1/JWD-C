@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Pertemuan 5 - Latihan Percabangan Switch Case</title>
+    </head>
+    <body>
+        <script>
+            var nilai = prompt("Berapa nomor undian anda?:");
+            var hadiah = " ";
+
+            switch(nilai){
+                case "7":
+                    hadiah = "Motor";
+                    break;
+                case "6":
+                    hadiah = "Televisi";
+                    break;
+                case "2":
+                    hadiah = "Radio";
+                    break;
+                case "5":
+                    hadiah = "Rice Cooker";
+                    break;
+                case "9":
+                    hadiah = "Setrika";
+                    break;
+                default:
+                    hadiah = "";
+                    break;
+            }
+
+            if(hadiah != ""){
+                document.write('<p>Selamat anda mendapat = '+hadiah+' </p>');
+            } else {
+                document.write('<p>Maaf anda belum beruntung</p>');
+            }
+
+            
+        </script>
+    </body>
+</html>
