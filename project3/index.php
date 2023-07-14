@@ -29,25 +29,17 @@ if ($result) {
         </tr>
         <?php foreach ($rows as $row): ?>
           <tr>
-            <td>
-              <?= $row['no']; ?>
-            </td>
-            <td>
-              <?= $row['nama_merek']; ?>
-            </td>
-            <td>
-              <?= $row['warna']; ?>
-            </td>
-            <td>
-              <?= $row['jumlah']; ?>
-            </td>
+            <td><?= $row['no']; ?></td>
+            <td><?= $row['nama_merek']; ?></td>
+            <td><?= $row['warna']; ?></td>
+            <td><?= $row['jumlah']; ?></td>
           </tr>
         <?php endforeach; ?>
       </table>
     </div>
     <br>
     <div>
-      <a href="tambah.html">Tambah data</a>
+      <a href="tambah_data.html">Tambah Data</a>
     </div>
   </div>
 </body>

@@ -4,19 +4,10 @@ body {
 }
 
 .container {
-  margin: 20px;
-}
-
-.container-box {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 15px;
 }
 
 label {
-  display: inline-block;
-  width: 200px;
+  width: 20px;
   padding-right: 24px;
-}
-.container-input {
-  display: inline-block;
 }
