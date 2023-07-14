@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 20px;
+}
+
+.container-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  padding-right: 24px;
+}
+.container-input {
+  display: inline-block;
+}

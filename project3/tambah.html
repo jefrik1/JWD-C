@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="container-form1"action="insert.php" method="post">
+        <b>Tambah Data Barang</b>
+        <div class="container-box">
+          <label for="nomor">Nomor</label>
+          <input class="container-input" type="text" name="nomor" id="nomor" />
+        </div>
+        <div class="container-box">
+          <label for="nama_merek">Nama Merek</label>
+          <input class="container-input" type="text" name="nama_merek" id="nama_merek" />
+        </div>
+        <div class="container-box">
+          <label for="warna">Warna</label>
+          <input class="container-input" type="text" name="warna" id="warna" />
+        </div>
+        <div class="container-box">
+          <label for="jumlah">jumlah</label>
+          <input class="container-input" type="text" name="jumlah" id="jumlah" />
+        </div>
+        <input type="submit" value="Simpan" />
+      </form>
+      <form action="tambah.html">
+        <input type="submit" value="Ulangi" />
+      </form>
+      <form action="index.php">
+        <input type="submit" value="Kembali" />
+      </form>
+    </div>
+  </body>
+</html>
