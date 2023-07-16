@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  padding: 0;
+.container-box {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.container {
-  margin: 15px;
+.containerno {
+  width: 100px;
 }
-
+.containerna {
+  width: 220px;
+}
+.containerwa {
+  width: 300px;
+}
+.containerju {
+  width: 85px;
+}
 label {
-  width: 20px;
-  padding-right: 24px;
+  display: inline-flex;
+  width: 100px;
 }

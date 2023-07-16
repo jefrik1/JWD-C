@@ -39,7 +39,7 @@ if ($result) {
     </div>
     <br>
     <div>
-      <a href="tambah_data.html">Tambah Data</a>
+      <a href="tambah.html">Tambah Data</a>
     </div>
   </div>
 </body>
